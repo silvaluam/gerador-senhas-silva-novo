@@ -13,3 +13,11 @@ function diminuiTamanho(){
 
     numeroSenha.textContent=tamanhoSenha;
 }
+
+function aumentaTamanhoTamanho(){
+    if(tamanhoSenha < 20){ 
+        tamanhoSenha = tamanhoSenha + 1
+ }
+    numeroSenha.textContent=tamanhoSenha;
+    geraSenha();
+}
